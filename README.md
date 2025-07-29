@@ -1,4 +1,4 @@
-# MultiLangauge
+# MultiLanguage Codespace
 
 This environment is setup to use with Java, C++ or Python.
 
