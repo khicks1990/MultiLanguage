@@ -1,0 +1,21 @@
+{
+  "name": "Multi-language Development",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8", // Base image that can be modified
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "vscjava.vscode-java-pack",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+    "postCreateCommand": "apt-get update && apt-get install -y build-essential && pip install -r requirements.txt",
+  "postAttachCommand": "chmod +x .devcontainer/auto_commit.sh && .devcontainer/auto_commit.sh"
+}
