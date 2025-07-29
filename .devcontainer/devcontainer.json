@@ -1,6 +1,5 @@
 {
   "name": "Multi-language Development",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8", // Base image that can be modified
   "customizations": {
     "vscode": {
       "extensions": [
