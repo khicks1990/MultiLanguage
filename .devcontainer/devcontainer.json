@@ -16,5 +16,5 @@
       ]
     }
   },
-  "postAttachCommand": "chmod +x .devcontainer/auto_commit.sh && .devcontainer/auto_commit.sh"
+  "postAttachCommand": "chmod +x .devcontainer/auto_commit.sh && .devcontainer/auto_commit.sh &"
 }
